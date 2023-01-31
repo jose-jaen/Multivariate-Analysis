@@ -50,7 +50,7 @@ for i in range(len(comparar)):
             filas.append(i)
             col.append(j)
 
-final = pd.DataFrame({'fila': filas, 'transf': col})
+final = pd.DataFrame({'fila':filas, 'transf':col})
 
 # Aplicamos las transformaciones a nuestro conjunto de datos
 for i in range(len(final)):
